@@ -1,0 +1,33 @@
+/* line 1, ../scss/main.scss */
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 7, ../scss/main.scss */
+body {
+  font-family: 'Nunito', sans-serif;
+  color: #384047;
+}
+
+/* line 12, ../scss/main.scss */
+.wrapper {
+  max-width: 90%;
+  margin: 10px auto;
+  padding: 10px 20px;
+  background: #f4f7f8;
+  border-radius: 8px;
+}
+
+/* line 20, ../scss/main.scss */
+h1, h2 {
+  margin: 30px 0;
+  text-align: center;
+}
+
+/* line 25, ../scss/main.scss */
+video, audio, .mejs-treehouse {
+  margin: 0 auto;
+  display: block;
+}
